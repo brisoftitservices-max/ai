@@ -1,0 +1,6 @@
+{
+  "name": "Brisoft IT Services",
+  "description": "Strategic technology consulting and enterprise solutions in AI, machine learning, data engineering, business intelligence, robotics, and digital transformation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
