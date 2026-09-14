@@ -23,7 +23,7 @@ export const BrisoftLogo: React.FC<BrisoftLogoProps> = ({
         style={{ width: iconSize, height: Math.round(iconSize * 1.15) }}
       >
         <img
-          src={'${import.meta.env.BASE_URL}logo.png'}
+          src={'${import.meta.env.BASE_URL}logo.svg'}
           alt="Brisoft IT Services Logo"
           width={iconSize}
           height={Math.round(iconSize * 1.15)}
@@ -31,7 +31,7 @@ export const BrisoftLogo: React.FC<BrisoftLogoProps> = ({
           referrerPolicy="no-referrer"
           onError={(e) => {
             // Fallback to png if svg fails
-            e.currentTarget.src = '/logo.png';
+            e.currentTarget.src = '${import.meta.env.BASE_URL}logo.png';
           }}
         />
       </div>
