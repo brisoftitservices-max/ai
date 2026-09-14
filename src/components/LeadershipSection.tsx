@@ -47,7 +47,7 @@ export const LeadershipSection: React.FC = () => {
                     className="w-full h-full object-cover object-top filter contrast-[1.03] brightness-[1.02]"
                     referrerPolicy="no-referrer"
                     onError={(e) => {
-                      e.currentTarget.src = '${import.meta.env.BASE_URL}kajal-g.png';
+                      e.currentTarget.src = '${import.meta.env.BASE_URL}kajal-g.jpg';
                     }}
                   />
                   {/* Subtle lower gradient overlay for architectural grounding */}
