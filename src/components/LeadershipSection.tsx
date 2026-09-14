@@ -42,12 +42,12 @@ export const LeadershipSection: React.FC = () => {
                 <div className="relative rounded-3xl overflow-hidden bg-slate-900 border border-slate-700/80 shadow-2xl aspect-[3/4] flex items-center justify-center">
                   <img
                     id="leadership-ceo-photo"
-                    src="/Passport Size.png"
+                    src={`${import.meta.env.BASE_URL}Passport Size.png`}
                     alt={`${LEADERSHIP_DATA.name} - ${LEADERSHIP_DATA.title}`}
                     className="w-full h-full object-cover object-top filter contrast-[1.03] brightness-[1.02]"
                     referrerPolicy="no-referrer"
                     onError={(e) => {
-                      e.currentTarget.src = '/kajal-g.png';
+                      e.currentTarget.src = `${import.meta.env.BASE_URL}kajal-g.png`;
                     }}
                   />
                   {/* Subtle lower gradient overlay for architectural grounding */}
