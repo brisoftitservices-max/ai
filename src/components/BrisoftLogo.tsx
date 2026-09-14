@@ -23,7 +23,7 @@ export const BrisoftLogo: React.FC<BrisoftLogoProps> = ({
         style={{ width: iconSize, height: Math.round(iconSize * 1.15) }}
       >
         <img
-          src="/logo.svg"
+          src={'${import.meta.env.BASE_URL}logo.png'}
           alt="Brisoft IT Services Logo"
           width={iconSize}
           height={Math.round(iconSize * 1.15)}
