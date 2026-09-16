@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Teal Palette for Engineering / Gear / Snowflake -->
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#146A8B" />
+      <stop offset="100%" stop-color="#0E4A62" />
+    </linearGradient>
+    
+    <!-- Vibrant Orange Flame Gradient -->
+    <linearGradient id="flameGrad" x1="20%" y1="90%" x2="80%" y2="10%">
+      <stop offset="0%" stop-color="#DE4A15" />
+      <stop offset="60%" stop-color="#F15B24" />
+      <stop offset="100%" stop-color="#FF7A38" />
+    </linearGradient>
+
+    <!-- Subtle inner shadow/depth -->
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#subtleGlow)">
+    <!-- OUTER GEAR COGS & RING (Teal) -->
+    <!-- Gear Ring & Outer Teeth -->
+    <path d="
+      M 60 115 
+      L 38 100 
+      L 28 122 
+      L 46 138 
+      C 42 147 38 156 36 166 
+      L 10 166 
+      L 10 194 
+      L 36 194 
+      C 38 204 42 213 46 222 
+      L 28 238 
+      L 38 260 
+      L 60 245 
+      C 68 253 77 260 87 266 
+      L 80 292 
+      L 106 300 
+      L 118 276 
+      C 128 280 139 282 150 282 
+      C 161 282 172 280 182 276 
+      L 194 300 
+      L 220 292 
+      L 213 266 
+      C 223 260 232 253 240 245 
+      L 262 260 
+      L 272 238 
+      L 254 222 
+      C 258 213 262 204 264 194 
+      L 290 194 
+      L 290 166 
+      L 264 166 
+      C 262 156 258 147 254 138 
+      L 272 122 
+      L 262 100 
+      L 240 115 
+      C 232 107 223 100 213 94 
+      L 218 80 
+      C 202 87 187 95 174 105
+      C 150 125 142 152 144 185
+      C 145 200 152 214 162 225
+      C 150 230 138 232 125 230
+      C 95 225 72 198 72 165
+      C 72 145 81 127 95 115
+      C 82 113 71 114 60 115 Z
+    " fill="url(#tealGrad)" />
+
+    <!-- CENTRAL SNOWFLAKE EMBLEM (Left Half - Precision Engineering) -->
+    <!-- Main stem -->
+    <path d="M 75 110 L 140 220" stroke="#146A8B" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Top branch pair -->
+    <path d="M 92 122 L 80 116" stroke="#146A8B" stroke-width="6" stroke-linecap="round" />
+    <path d="M 98 132 L 82 138" stroke="#146A8B" stroke-width="6" stroke-linecap="round" />
+    <path d="M 92 122 L 102 110" stroke="#146A8B" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Mid branch 1 -->
+    <path d="M 108 150 L 80 148" stroke="#146A8B" stroke-width="7" stroke-linecap="round" />
+    <path d="M 88 148 L 78 138" stroke="#146A8B" stroke-width="5" stroke-linecap="round" />
+    <path d="M 88 148 L 78 158" stroke="#146A8B" stroke-width="5" stroke-linecap="round" />
+    
+    <path d="M 108 150 L 126 136" stroke="#146A8B" stroke-width="7" stroke-linecap="round" />
+    <path d="M 120 140 L 122 128" stroke="#146A8B" stroke-width="5" stroke-linecap="round" />
+
+    <!-- Lower branch 2 -->
+    <path d="M 124 182 L 95 195" stroke="#146A8B" stroke-width="7" stroke-linecap="round" />
+    <path d="M 104 191 L 96 181" stroke="#146A8B" stroke-width="5" stroke-linecap="round" />
+    <path d="M 104 191 L 98 203" stroke="#146A8B" stroke-width="5" stroke-linecap="round" />
+
+    <path d="M 124 182 L 138 172" stroke="#146A8B" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Bottom branch 3 -->
+    <path d="M 134 205 L 122 222" stroke="#146A8B" stroke-width="6" stroke-linecap="round" />
+    <path d="M 134 205 L 148 214" stroke="#146A8B" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Additional micro branches for snowflake density -->
+    <path d="M 85 170 L 64 170" stroke="#146A8B" stroke-width="5" stroke-linecap="round" />
+    <path d="M 70 170 L 62 163" stroke="#146A8B" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M 70 170 L 62 177" stroke="#146A8B" stroke-width="4.5" stroke-linecap="round" />
+
+    <!-- RISING FLAME (Right Half - Innovation & Energy) -->
+    <!-- The prominent organic curved flame that reaches high above -->
+    <path d="
+      M 160 12
+      C 160 12 142 35 132 65 
+      C 122 95 125 125 142 145 
+      C 152 157 165 162 178 168 
+      C 205 180 226 198 226 230 
+      C 226 242 222 254 214 264 
+      C 230 252 242 232 244 210 
+      C 246 182 232 158 214 140 
+      C 192 118 185 96 194 65 
+      C 200 45 212 28 212 28 
+      C 212 28 195 42 186 58 
+      C 174 80 175 105 160 12 Z
+    " fill="url(#flameGrad)" />
+
+    <!-- Flame inner accent curve -->
+    <path d="
+      M 172 70
+      C 166 88 168 108 178 124
+      C 188 140 206 156 210 176
+      C 214 196 205 215 195 228
+      C 208 218 216 200 214 182
+      C 212 164 198 148 188 132
+      C 178 116 178 95 184 78
+      C 186 72 188 66 190 62
+      C 184 64 176 68 172 70 Z
+    " fill="#FFA544" opacity="0.85" />
+  </g>
+</svg>
